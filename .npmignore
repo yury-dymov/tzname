@@ -1,5 +1,6 @@
+coverage
 src
 test
 .eslintrc
-travis.yml
+.travis.yml
 webpack.config.js

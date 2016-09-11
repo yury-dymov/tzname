@@ -39,5 +39,9 @@
     "jest": "^15.1.1",
     "json-loader": "^0.5.4",
     "webpack": "^1.13.2"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }
