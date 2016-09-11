@@ -1,0 +1,5 @@
+src
+test
+.eslintrc
+travis.yml
+webpack.config.js

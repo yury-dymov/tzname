@@ -1,0 +1,43 @@
+{
+  "name": "tzname",
+  "version": "1.0.0",
+  "description": "Library for detecting user's timezone or finding timezone name by provided offset.",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "lint": "node node_modules/eslint/bin/eslint src",
+    "release": "node node_modules/webpack/bin/webpack --verbose --colors --display-error-details -p",
+    "test": "node node_modules/jest/bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yury-dymov/tzname.git"
+  },
+  "keywords": [
+    "UTC",
+    "timezone",
+    "timezoneName",
+    "TZ"
+  ],
+  "author": "Yuri Dymov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yury-dymov/tzname/issues"
+  },
+  "homepage": "https://github.com/yury-dymov/tzname#readme",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^11.0.0",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.1",
+    "eslint-plugin-react": "^6.2.0",
+    "jest": "^15.1.1",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.13.2"
+  }
+}
