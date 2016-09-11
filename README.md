@@ -1,4 +1,9 @@
 # tzname
+[![npm version](https://img.shields.io/npm/v/tzname.svg?style=flat)](https://www.npmjs.com/package/tzname)
+[![Downloads](http://img.shields.io/npm/dm/tzname.svg?style=flat-square)](https://npmjs.org/package/tzname)
+[![Build Status](https://img.shields.io/travis/yury-dymov/tzname/master.svg?style=flat)](https://travis-ci.org/yury-dymov/tzname)
+[![Coverage Status](https://coveralls.io/repos/github/yury-dymov/tzname/badge.svg?branch=master)](https://coveralls.io/github/yury-dymov/tzname?branch=master)
+
 Library for detecting user's timezone or finding timezone name by provided offset.
 
 # Installation
